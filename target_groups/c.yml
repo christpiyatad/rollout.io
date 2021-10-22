@@ -1,0 +1,6 @@
+type: target-group
+name: c
+conditions:
+  - operator: semver-eq
+    property: rox.app_release
+    operand: '1'
